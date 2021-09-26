@@ -44,8 +44,8 @@ int main() {
 
     string board[BOARD_SIZE][BOARD_SIZE];
 
-    HardCodedBoard(board);      // Provides a hard coded board
-    //GetBoard(board);          // Gets a board from a user
+    //HardCodedBoard(board);      // Provides a hard coded board
+    GetBoard(board);          // Gets a board from a user
 
     cout << boggle.GetDictionary().WordCount() << " words loaded." << endl << endl;
 
